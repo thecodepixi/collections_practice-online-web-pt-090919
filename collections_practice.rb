@@ -35,8 +35,9 @@ end
 def kesha_maker(array)
   kesha_words = []
   array.each do |word|
-    
-    kesha_words << word[2] = "$" 
+    word_array = word.split(//)
+    word_array[2] = "$" 
+    kesha_words << word_array.join() 
   end 
   kesha_words
 end 
