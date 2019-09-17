@@ -70,7 +70,7 @@ end
 
 #Bonus Test 
   describe '#swap_elements_from_to' do
-    it 'swap the second and third elements of an array' do
-      expect(swap_elements(["blake", "ashley", "scott"])).to eq(["blake", "scott", "ashley"])
+    it 'allows you to specify the index of the elements you would like to swap' do
+      expect(swap_elements(["blake", "ashley", "scott"],1,2)).to eq(["blake", "scott", "ashley"])
     end
   end
