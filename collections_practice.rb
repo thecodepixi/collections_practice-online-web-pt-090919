@@ -18,3 +18,12 @@ def swap_elements(array)
   
   array 
 end 
+
+def swap_elements_from_to(array,from,to)
+  index_from = array[from]
+  index_to = array[to] 
+  array[from] = index_to
+  array[to] = index_from 
+  
+  array 
+end 
